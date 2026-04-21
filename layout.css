@@ -32,6 +32,7 @@ body{
     'section1 aside'
     'section2 aside'
     'footer footer';
+    grid-template-columns: 1fr 300px;
 }
 
  /* blocos para designar cada areaa */
@@ -73,9 +74,32 @@ footer{
 .sessao-1{
     grid-area: section1;
     display: flex;
-    justify-content: center;
-    padding: 20px;
+    justify-content: flex-start;
+
 }
+
+
+.sessao-1 .semiS{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.sessao-1 .semiH{
+    margin-left: 30px;
+}
+
+.sessao-1 .semiF{
+    margin-left: 30px;
+}
+
+.sessao-1 .semiF article{
+    margin-left: 100px;
+    border: 2px blue solid;
+}
+
 
 
 
