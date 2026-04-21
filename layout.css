@@ -23,3 +23,33 @@ footer{
 aside{
     background-color: lightgoldenrodyellow;
 }
+
+body{
+    display: grid;
+    grid-template-areas: 
+    'header header' 
+    'section1 aside'
+    'section2 aside'
+    'footer footer';
+}
+
+ /* blocos para designar cada areaa */
+.cabecalho{
+    grid-area: header;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
+
+.sessao-1{
+    grid-area: section1;
+}
+
+.sessao-2{
+    grid-area: section2;
+}
