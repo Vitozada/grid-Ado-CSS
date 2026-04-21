@@ -93,16 +93,38 @@ footer{
 
 .sessao-1 .semiF{
     margin-left: 30px;
+    
 }
 
 .sessao-1 .semiF article{
     margin-left: 100px;
     border: 2px blue solid;
+    margin: 10px;
 }
-
-
-
 
 .sessao-2{
     grid-area: section2;
 }
+
+footer{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+}
+
+footer div ul{
+    padding-left: 50px;
+}
+
+.bookface{
+    background-color: black;
+    color: white;
+}
+
+
