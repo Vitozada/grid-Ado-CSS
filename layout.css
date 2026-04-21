@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightblue;
+}
+
+.sessao-1{
+    background-color: lightgreen;
+}
+
+.sessao-2{
+    background-color: lightslategrey;
+}
+
+footer{
+    background-color: lightcoral;
+}
+
+aside{
+    background-color: lightgoldenrodyellow;
+}
